@@ -34,8 +34,8 @@ $(document).ready(function()
         $('#listOfBooks').on('click', 'button', function(mittEvent2)
         {
             var bookId = mittEvent2.target.id;
-            var bookTitle = $(this).parent().siblings('.title').text();
-            var bookPrice = $(this).parent().siblings('.price').text();
+            var bookTitle = $(this).parent().siblings(".title").text();
+            var bookPrice = $(this).parent().siblings(".price").text();
 
             var cart = '<tr><td>' + bookTitle + '</td><td>' + bookPrice + '</td></tr>';
             $('#cart').append($(cart));
