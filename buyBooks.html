@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Exempel</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="buyBooks.css" />    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+   </head>
+  <body>    
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="BooksScript.js" type="text/javascript"></script>
+
+  <h1>Köp böcker</h1>
+
+  <div id="main">
+
+    <div id="availableBooks">
+    <h2>Tillgängliga böcker</h2>    
+    <button id="showBooks">Visa böcker</button>
+    <table id="listOfBooks">
+     <tr>
+      <td>Genre</td>
+      <td>Titel</td>      
+      <td>Författare</td>
+      <td>Pris</td>
+      <td></td>                       
+     </tr>
+    </table>
+    </div>
+
+    <div id="customerCart">
+    <h2>Kundvagn</h2>
+    <!-- <img id="cartImg" src="cart.jpg" alt="" /> -->
+    <table id="cart">
+     <tr>
+      <td>Titel</td>
+      <td>Pris</td>                      
+     </tr>
+    </table>
+    <p id="sum">Summa: <span id="totalSum">0</span> USD</p> 
+    </div>
+    
+  </div> 
+   
+</body>
+</html>

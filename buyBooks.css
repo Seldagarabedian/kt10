@@ -1,0 +1,72 @@
+    body {
+    margin: 1em;
+    padding: 1em; 
+    }
+      
+    h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    line-height: 1.4;
+    }
+    
+    h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.4;
+    }    
+ 
+    p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    }
+    
+    #sum {
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    }    
+    
+    .italic {
+    font-style: italic;
+    }  
+    
+    #main {
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    background-color: grey;    
+    }  
+        
+    #availableBooks {
+    width: 70%;        
+    background-color: white; 
+    float: left;
+    } 
+    
+    #customerCart {
+    width: 30%;
+    background-color: white; 
+    float: left;    
+    }    
+
+    table { 
+    width: 90%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;   
+    }
+    
+    tr:nth-of-type(even) { background-color: #dddddd; }	
+    tr:nth-of-type(odd)	{ background-color: #cccccc; }	    
+    
+    tr:first-of-type { 
+    background-color: #000000; 
+    font-weight: bold; 
+    color: white; 
+    }        
+    
+    #cartImg {
+    height: 3em;
+    }
+    
