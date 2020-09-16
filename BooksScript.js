@@ -40,6 +40,11 @@ $(document).ready(function()
             var cart = '<tr><td>' + bookTitle + '</td><td>' + bookPrice + '</td></tr>';
             $('#cart').append($(cart));
 
+            totalSum = Number(totalSum) + Number(bookPrice);
+            totalSum = Math.round(totalSum);
+            
+            $('#totalSum').empty().append(totalSum);
+
         })
 
 
